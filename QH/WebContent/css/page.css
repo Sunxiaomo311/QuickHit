@@ -1,0 +1,105 @@
+.owndiv {
+	margin-top: 10%;
+	margin-left: 32%;
+	width: 500px;
+	height: 400px;
+	opacity: 0.6;
+	border-radius: 20px 0 0 0;
+}
+
+#blue {
+	background-color: paleturquoise;
+	cursor: pointer;
+}
+
+#pink {
+	background-color: pink;
+	display: none;
+	position: fixed;
+}
+
+.owndiv:hover {
+	box-shadow: 10px 10px 30px dimgrey;
+	opacity: 0.8;
+}
+
+.font {
+	padding-top: 50px;
+	font-family: "微软雅黑";
+	font-size: large;
+	text-align: center;
+}
+
+#click {
+	display: block;
+	margin-top: 150px;
+	color: dimgrey;
+	font-size: 12px;
+}
+
+#message {
+	display: none;
+	width: 442px;
+	padding: 20px;
+	background-color: rgba(255, 59, 0, 0);
+	opacity: 0.7;
+	position: absolute;
+	left: 2%;
+	top: 57%;
+	color: black;
+}
+
+#a {
+	font-size: x-large;
+	text-decoration: none;
+	color: white;
+}
+
+#a:hover {
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+#list {
+	display: none;
+	position: fixed;
+	background-color: #ffec8a;
+	border-radius: 0 20px 0 0;
+	z-index: -1;
+}
+
+#sss:hover {
+	font-size: xx-large;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+#list li {
+	padding: 8px;
+	font-size: 13px;
+}
+
+.score {
+	padding-left: 60px;
+}
+
+.desc {
+	padding-left: 80px;
+}
+
+#green {
+	display: none;
+	background-color: #10fd0c99;
+	position: fixed;
+	border-radius: 0 20px 0 0;
+	opacity: 0;
+	text-align: center;
+}
+
+#green input {
+	padding: 5px;
+}
+
+#green span {
+	margin-top: 80px;
+}
